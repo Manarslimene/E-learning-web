@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Catalogue de formations</title>
+	<style>
+         nav {
+          background-color: #b5d1ee;
+       overflow: hidden;
+       margin: 0 auto;
+       width: 50%;
+     }
+     
+     nav a {
+       float: left;
+       display: block;
+       background-color: #b5d1ee;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+       font-size: 18px;
+     }
+     
+     nav a:hover {
+       background-color: #ddd;
+       color: black;
+     }
+		.catalogue {
+		  max-width: 1000px;
+		  margin: 0 auto;
+		  padding: 1rem;
+		}
+
+		.catalogue h2 {
+		  text-align: center;
+		  margin-bottom: 2rem;
+		}
+
+		.row {
+		  display: flex;
+		  flex-wrap: wrap;
+		  justify-content: space-between;
+		}
+
+		.card {
+		  width: calc(33.33% - 1rem);
+		  margin-bottom: 1rem;
+		  padding: 1rem;
+		  border-radius: 5px;
+		  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+		  background-color: #fff;
+		  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+		}
+
+		.card:hover {
+		  transform: translateY(-5px);
+		  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+		}
+
+		.card img {
+		  width: 100%;
+		  height: auto;
+		  border-radius: 5px;
+		  margin-bottom: 1rem;
+		}
+
+		.card h3 {
+		  font-size: 1.5rem;
+		  margin-bottom: 0.5rem;
+		}
+
+		.card p {
+		  margin-bottom: 1rem;
+		}
+
+		.card a {
+		  display: block;
+		  text-align: center;
+		  background-color: #333;
+		  color: #fff;
+		  padding: 0.5rem 1rem;
+		  border-radius: 5px;
+		  text-decoration: none;
+		  transition: background-color 0.2s ease-in-out;
+		}
+
+		.card a:hover {
+		  background-color: #fff;
+		  color: #333;
+		}
+	</style>
+</head>
+<body>
+    <header>
+       
+        <nav>
+          <ul>
+            <a onclick="window.location.href='e.php'">HOME</a>
+            <a onclick="window.location.href='ped.html'">PEDAGOGIE</a>
+                
+          </ul>
+        </nav>
+      </header>
+	<div class="catalogue">
+	  <h2>Catalogue de formations</h2>
+	  <div class="row">
+	    <div class="card">
+	      <img src="img/img1.jpg" alt="Formation 1">
+	      <h3>Formation 1</h3>
+	      <p>NIVEAU A1</p>
+          <p>NIVEAU A2</p>
+          <p>NIVEAU A3</p>
+	      <a href="#">En savoir plus</a>
+	    </div>
+	    <div class="card">
+	      <img src="img/img2.jpg" alt="Formation 2">
+	      <h3>Formation 2</h3>
+          <p>NIVEAU A1</p>
+          <p>NIVEAU A2</p>
+          <p>NIVEAU A3</p>
+	      <a href="#">En savoir plus</a>
+	    </div>
+        <div class="card">
+            <img src="img/img3.png" alt="Formation 3">
+            <h3>Formation 3</h3>
+            <p>NIVEAU A1</p>
+            <p>NIVEAU A2</p>
+            <p>NIVEAU A3</p>
+            <a href="#">En savoir plus</a>
+          </div>
+          <div class="card">
+            <img src="img/img4.jpg" alt="Formation 4">
+            <h3>Formation 4</h3>
+            <p>NIVEAU A1</p>
+            <p>NIVEAU A2</p>
+            <p>NIVEAU A3</p>
+            <a href="#">En savoir plus</a>
+          </div>
+          <div class="card">
+            <img src="img/img5.jpg" alt="Formation 5">
+            <h3>Formation 5</h3>
+            <p>NIVEAU A1</p>
+            <p>NIVEAU A2</p>
+            <p>NIVEAU A3</p>
+            <a href="#">En savoir plus</a>
+          </div>
+          <div class="card">
+            <img src="img/img6.jpg" alt="Formation 6">
+            <h3>Formation 6</h3>
+            <p>NIVEAU A1</p>
+            <p>NIVEAU A2</p>
+            <p>NIVEAU A3</p>
+            <a href="#">En savoir plus</a>
+          </div>

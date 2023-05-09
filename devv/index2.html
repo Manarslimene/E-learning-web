@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+          background-color: #b5d1ee;
+       overflow: hidden;
+       margin: 0 auto;
+       width: 50%;
+     }
+     
+     nav a {
+       float: left;
+       display: block;
+       background-color: #b5d1ee;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+       font-size: 18px;
+     }
+     
+     nav a:hover {
+       background-color: #ddd;
+       color: black;
+     }
+        form {
+       width: 400px;
+       margin: auto;
+       padding: 20px;
+       border: 1px solid #ccc;
+       border-radius: 5px;
+     }
+     
+     label {
+       display: block;
+       font-weight: bold;
+       margin-bottom: 10px;
+     }
+     
+     input[type="text"] {
+       width: 100%;
+       padding: 10px;
+       border-radius: 5px;
+       border: 1px solid #ccc;
+       margin-bottom: 20px;
+     }
+     
+     input[type="submit"] {
+       background-color: #4CAF50;
+       color: white;
+       padding: 10px 20px;
+       border-radius: 5px;
+       border: none;
+       cursor: pointer;
+     }
+
+     
+     
+
+     
+     </style>
+</head>
+
+<body>
+    <nav>
+      <a onclick="window.location.href='e.php'">Home</a>
+      <a onclick="window.location.href='conecter.html'">Se connecter</a>
+       
+      </nav>
+    
+    
+    <form action="insert.php" method="post">
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom"><br><br>
+        <label for="nom">Prénom:</label>
+        <input type="text" id="prenom" name="prenom"><br><br>
+        <label for="nom">TEL:</label>
+        <input type="text" id="tel" name="tel"><br><br>
+        <label for="nom">Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+        <label for="nom">Mot de passe:</label>
+        <input type="password" id="mp" name="mp"><br><br>
+        <label for="sexe">Sexe:</label>
+      <input type="radio" id="homme" name="sexe" value="homme">
+      <label for="homme">Homme</label>
+      
+      <input type="radio" id="femme" name="sexe" value="femme">
+      <label for="femme">Femme</label>
+        
+        <input type="submit" value="Envoyer">
+      </form>
+
+      
+</body>
+</html>

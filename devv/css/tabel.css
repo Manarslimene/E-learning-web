@@ -1,0 +1,32 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.table {
+	border-collapse: collapse;
+	margin: 20px;
+	font-size: 1.2em;
+	font-family: Arial, sans-serif;
+	min-width: 400px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table th {
+	background-color: #008080;
+	color: #ffffff;
+	text-align: left;
+	padding: 12px;
+}
+
+.table td {
+	padding: 12px;
+	text-align: left;
+	border-bottom: 1px solid #dddddd;
+}
+
+.table tr:hover {
+	background-color: #f5f5f5;
+}

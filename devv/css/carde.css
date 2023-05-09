@@ -1,0 +1,62 @@
+/* Utilisation de Flexbox pour afficher les cartes horizontalement */
+.carte-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .carte {
+    flex-basis: 30%; /* Taille fixe pour chaque carte, moins les marges */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .carte img {
+    justify-content: center;
+  }
+  
+  /* Style du titre de la carte */
+  .carte h2 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  /* Style de la description de la carte */
+  .carte p {
+    font-size: 1rem;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .carte a {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+
+  .carte a:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Media query pour adapter le nombre de cartes affichées en fonction de la taille de l'écran */
+  @media only screen and (max-width: 767px) {
+    .carte {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+  
+  
